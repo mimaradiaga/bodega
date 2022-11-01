@@ -8,6 +8,13 @@ body {
 
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .imagen-tienda {
     width: 100px;
    
@@ -45,37 +52,21 @@ body {
 }
 
 .comedores {
-   
     display: flex;
-    margin-bottom: 50px;
-    padding: 40px;
-    
-    
+    margin-bottom: 50px;  
 }
 
 .img-cont {
+    display:flex;
+    justify-content: center;
     width: 100%;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .img-cont div img {
     width: 80%;
     border-radius: 20px;
-}
-
-.escritorios {
-  
-    display:flex;
-    margin-bottom: 50px;
-    
-}
-
-.terraza {
-    
-    display: flex;
-    margin-bottom: 50px;
-   
-    
 }
 
 .align {
