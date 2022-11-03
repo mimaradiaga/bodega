@@ -17,7 +17,8 @@ main {
 }
 
 .imagen-tienda {
-    width: 100px;
+    width: 120px;
+    margin-top: 20px;
    
 
 }
@@ -25,7 +26,6 @@ main {
 .background-color {
     background-color: #A7BB4C;
     margin: 0;
-    padding: 30px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 
@@ -45,26 +45,31 @@ main {
     text-align: center;
     font-family: 'Syncopate', sans-serif;
     font-family: 'Arima Madurai', cursive;
+    color: #5F2384;
 }
 
 .articulos {
     display: flex;
     justify-content: center;
-    background-color: white;
     text-align: center;
     list-style: none;
     margin-top: 25px;
     background-color: #A7BB4C;
     font-family: 'Arima Madurai', cursive;
+
 }
 
 .articulos a {
     text-decoration: none;
+    color:antiquewhite;
+    font-size: larger;
+
 }
 
 .border {
-    border: white 3px inset;
+    border: #76349E 3px inset;
     padding: 20px;
+
 }
 
 
@@ -72,6 +77,7 @@ main {
 .space {
     margin-right: 20px;
     text-decoration: none;
+ 
 
 }
 
@@ -96,11 +102,13 @@ main {
 
 .align {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    color: #5F2384;
 }
 
 div h2 {
     padding: 20px;
+    color: #A7BB4C;
 }
 
 footer {
@@ -110,4 +118,14 @@ footer {
     border-top-right-radius: 20px;
     padding: 30px;
     text-align: center;
+    color: antiquewhite;
+}
+
+div li {
+    list-style: none;
+    text-align: justify;
+}
+
+summary {
+    list-style: none;
 }
